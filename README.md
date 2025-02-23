@@ -1,4 +1,4 @@
-# 🌟 CartaParaMiNovia
+# 🌟 Carta Para Mi Novia
 # Proyecto Angular 16 - Deploy en GitHub Pages 🚀
 
 ![Angular](https://img.shields.io/badge/Angular-16-red?style=for-the-badge&logo=angular) ![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Deployed-success?style=for-the-badge&logo=github)
@@ -20,7 +20,7 @@ Para ejecutar el proyecto en tu entorno local, sigue estos pasos:
 
 1️⃣ Clona este repositorio:
 ```bash
-  git clone https://github.com/TU-USUARIO/TU-REPOSITORIO.git
+  git clone https://github.com/carpiom-dev/carta-para-mi-novia.git
 ```
 
 2️⃣ Ingresa al directorio del proyecto:
