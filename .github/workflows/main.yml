@@ -30,19 +30,19 @@ jobs:
         uses: actions/setup-node@v4.2.0
         with:
             node-version: "20"
-            
+
       # Install dependencias
       - name: Install deps
         run: npm i
-        
+
       # Build app for production
       - name: Build app bundle
         run: npm run build:prod
-        
+
       # Deploy to GitHub Pages
       - name: Deploy to Pages
         uses: crazy-max/ghaction-github-pages@v4.1.0
         with:
-          build_dir: dist/
+          build_dir: dist/carta-para-mi-novia
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
