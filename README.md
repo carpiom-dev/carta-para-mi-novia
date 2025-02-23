@@ -1,27 +1,58 @@
-# CartaParaMiNovia
+# 🌟 CartaParaMiNovia
+# Proyecto Angular 16 - Deploy en GitHub Pages 🚀
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.3.
+![Angular](https://img.shields.io/badge/Angular-16-red?style=for-the-badge&logo=angular) ![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Deployed-success?style=for-the-badge&logo=github)
 
-## Development server
+## 📌 Descripción
+Este es un proyecto desarrollado en **Angular 16**, diseñado para proporcionar una experiencia fluida y moderna. La aplicación ha sido desplegada exitosamente en **GitHub Pages**, permitiendo el acceso directo desde cualquier navegador sin necesidad de configuraciones adicionales.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## 🌍 Acceso a la Aplicación
+🔗 [**Ver el Proyecto en Vivo**](https://carpiom-dev.github.io/carta-para-mi-novia/) 🔗
 
-## Code scaffolding
+## 🚀 Tecnologías Utilizadas
+- 🅰️ **Angular 16** - Framework frontend moderno y potente.
+- 🎨 **TypeScript** - Lenguaje tipado para un código más robusto.
+- ⚡ **GitHub Pages** - Hosting para el despliegue estático de la aplicación.
+- 📦 **Node.js & NPM** - Gestión de dependencias y herramientas de desarrollo.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## 🛠️ Instalación y Configuración
+Para ejecutar el proyecto en tu entorno local, sigue estos pasos:
 
-## Build
+1️⃣ Clona este repositorio:
+```bash
+  git clone https://github.com/TU-USUARIO/TU-REPOSITORIO.git
+```
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+2️⃣ Ingresa al directorio del proyecto:
+```bash
+  cd TU-REPOSITORIO
+```
 
-## Running unit tests
+3️⃣ Instala las dependencias:
+```bash
+  npm install
+```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+4️⃣ Ejecuta el servidor de desarrollo:
+```bash
+  ng serve
+```
 
-## Running end-to-end tests
+5️⃣ Abre tu navegador en `http://localhost:4200/`
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## 🚀 Despliegue en GitHub Pages
+Para desplegar nuevamente la aplicación en **GitHub Pages**, sigue estos pasos:
 
-## Further help
+1️⃣ Genera la versión de producción:
+```bash
+  ng build --configuration=production --output-path docs --base-href "/carta-para-mi-novia/"
+```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+2️⃣ Configura GitHub Pages:
+- Ve a la configuración del repositorio en GitHub.
+- En la sección **Pages**, selecciona la rama `main` y la carpeta `/docs` como fuente.
+- ¡Listo! Tu aplicación estará en línea en unos minutos.
+
+---
+
+✨ _Desarrollado con pasión por [dev. Adrian Carpio] 💻❤️_
